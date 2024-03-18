@@ -17,10 +17,10 @@
             </div>
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="google_image-search.html">Image Search</a>
+                  <a class="nav-link active link-secondary" aria-current="page" href="google_image-search.html">Image Search</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="google_advanced_search.html">Advance Search</a>
+                  <a class="nav-link link-secondary" href="google_advanced_search.html">Advance Search</a>
                 </li>
               </ul>
         </div>
@@ -38,7 +38,7 @@
                     <p class="p-advance">all these words:</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_q" class="form-control">
                 </div>
             </div>
             <div class="row-input">
@@ -46,7 +46,7 @@
                     <p class="p-advance">this exact word or phrase</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_epq" class="form-control">
                 </div>
             </div>
             <div class="row-input">
@@ -54,7 +54,7 @@
                     <p class="p-advance">any of these words</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_oq" class="form-control">
                 </div>
            </div>
            <div class="row-input">
@@ -62,8 +62,12 @@
                     <p class="p-advance">none of these words</p>
                 </div>
                 <div class="right">
-                    <input type="text" name="q" class="form-control">
+                    <input type="text" name="as_eq" class="form-control">
                 </div>
+            </div>
+
+            <div class="btn-div">
+                <input type="submit" value="Advanced Search" class="btn btn-advanced">
             </div>
         </form>
     </div>
