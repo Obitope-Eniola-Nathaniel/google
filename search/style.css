@@ -21,10 +21,10 @@
 
 
 .btn-google {
-    background-color: #303134;
-    border: 1px solid #303134;
+    background-color: #e2e2e2;
+    border: 1px solid #e2e2e2;
     border-radius: 4px;
-    color: #e8eaed;
+    color: #373738;
     font-family: arial, sans-serif;
     font-size: 14px;
     margin: 11px 4px;
@@ -88,4 +88,17 @@
     justify-content: flex-end;
     width: 590px;
     margin-top: 30px;
+}
+
+
+.copy-right-flex {
+    display: flex;
+    align-items: flex-end;
+}
+
+.copy-right {
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
 }
